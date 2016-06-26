@@ -8,9 +8,7 @@ import SearchBar from './components/search_bar'
 import VideoDetail from './components/video_detail'
 import VideoList from './components/video_list'
 
-const API_KEY = 'AIzaSyABoC1CXac2E1u4Da3IzSFwgdjtQ1SIlZA'
-
-console.log(config.API_KEY)
+const API_KEY = config.API_KEY
 
 
 class App extends Component {
