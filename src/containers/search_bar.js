@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 import { fetchvideos } from '../actions/index'
 
 export default class SearchBar extends Component{
-    constructor(props){
+  constructor(props){
     super(props)
 
     this.state = {

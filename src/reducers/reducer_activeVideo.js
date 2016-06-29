@@ -1,9 +1,9 @@
 import { FETCH_VIDEOS, VIDEO_SELECTED } from '../actions/index'
 
-export default function(state = [], action){
+export default function(state = null, action){
   switch (action.type) {
-    case FETCH_VIDEOS:
-      return action.payload.data.items
+    case VIDEO_SELECTED:
+      return action.payload
   }
   return state
 }
